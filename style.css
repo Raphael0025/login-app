@@ -1,0 +1,172 @@
+body{  
+    background-image: linear-gradient(to right, #0066FF, #B6D3FF);
+    background-color: #0066FF;
+    padding: 5%;
+    margin: 0%;
+    height: 60vh;
+}
+    .form{
+        margin: 2%;
+        margin-left: 25%;
+        background-color: white;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        box-shadow: 10px 20px 10px 2px rgb(31, 30, 30);
+    }
+        .title{
+            padding:10%;
+            color: #0066FF;
+            text-align: center;
+            font-weight: bolder;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 200%;
+        }
+        .user-Input{
+            margin-top: -5%;
+        }
+            .email{
+                margin-bottom: 3%;
+            }
+                .input-Field{
+                    padding: 1%;
+                    width: 70%;
+                    font-size: 150%;
+                    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    border: none;
+                    outline: none;
+                }
+                .back{
+                    color:#0066FF;
+                    background-color: rgb(226, 222, 222);
+                }
+            .pass{
+                margin-left: 0%;
+                width: 100%;
+            }
+            .btn{
+                margin-top: 3%;
+                width: 75%;
+                font-size: 150%;
+                font-weight: bolder;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                color: white;
+                text-decoration: none;
+                border: none;
+                border-radius: 25px;
+                padding: 1.5%;
+                background-color: #0066FF;
+            }
+            
+                .btn:hover{
+                    background-color: 	#00a3ff;
+                    transition: all 0.25s;
+                    cursor: pointer;
+                    box-shadow: 0px 0px 15px 5px rgb(161, 163, 163);
+                }
+            .fp{
+                margin-top: 5%;
+                margin-bottom: 3%;
+            }
+            .register{
+                margin-top: 1%;
+                font-family:cursive;
+                color: #0400ff;
+            }
+                .fp a, .register a{
+                    font-size: larger;
+                    font-family:cursive;
+                    color: gray;
+                }
+                    .fp a:hover, .register a:hover, .res a:hover{
+                        font-family:cursive;
+                        color: #00a3ff;
+                    }
+            .res {
+                margin-top: 10%;
+            }
+                .res a{
+                    font-size: larger;
+                    font-family:cursive;
+                    color: gray;
+                }
+    .form2{
+        margin: 2%;
+        margin-left: 10%;
+        background-color: white;
+        width: 80%;
+        height: 130%;
+        text-align: center;
+        box-shadow: 10px 20px 10px 2px rgb(31, 30, 30);
+    }
+        .title2{
+            padding:4%;
+            color: #0066FF;
+            text-align: center;
+            font-weight: bolder;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 200%;
+        }
+        .btn2{
+            margin-top: 3%;
+            width: 73%;
+            font-size: 150%;
+            font-weight: bolder;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            border: none;
+            border-radius: 25px;
+            color: white;
+            padding: 1.5%;
+            background-color: #0066FF;
+        }
+            .btn2:hover{
+                background-color: 	#00a3ff;
+                transition: all 0.25s;
+                cursor: pointer;
+                box-shadow: 0px 0px 15px 5px rgb(161, 163, 163);
+            }
+            #cars{
+                width: 20%;
+                font-size: large;
+                padding: 0.5%;
+                border:#0066FF 1px solid;
+                outline: none;
+            }
+                #cars:hover{
+                    cursor: pointer;
+                    outline: none;
+                }
+        .user-Input2{
+            margin-top: 1%;
+        }
+        .drop, .cb{
+            display: inline;
+        }
+        .cb{
+            margin-left: 2%;
+            font-size: 150%;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .fn, .mn{
+            margin-right: 2%;
+        }
+            .fn, .mn, .ln{
+                padding: 1%;
+                font-size: 130%;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                outline: none;
+                border: none;
+                background-color: rgb(226, 222, 222);
+            }
+        .names{
+            margin-left: 0%;
+            margin-bottom: 5%;
+        }
+        .info{
+            margin-left: -4%;
+            margin-bottom: 5%;
+        }
+        .oth{
+            margin-left: -18%;
+            margin-bottom: 2%;
+        }

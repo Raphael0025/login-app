@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Account</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="function.js" async></script>
+</head>
+<body>
+    <div class="form2">
+        <div class="title2">Create Account</div>
+        <form class="user-Input2" action="login.html">
+            <div class="names">
+                <input type="text" class="fn" id="fname" placeholder="First Name" required> 
+                <input type="text" class="mn" placeholder="Middle Name">
+                <input type="text" class="ln" placeholder="Last Name" required>
+            </div>
+            <div class="info">
+                <input type="email"class="fn" placeholder="E-mail" required>
+                <input type="date" class="mn" placeholder="Birth Date" required> 
+                <input type="text" class="fn" placeholder="Contact #" required>
+            </div>
+            <div class="oth">
+                <div class="drop">
+                    <select name="cars" id="cars" placeholder="City">
+                        <option selected hidden>Select a City</option>
+                        <option >Pasay City</option>
+                        <option >Makati City</option>
+                        <option >Taguig City</option>
+                        <option >Manila City</option>
+                        <option >Cebu City</option>
+                        <option >Davao City</option>
+                        <option >Quezon City</option>
+                        <option >San Juan City</option>
+                        <option >Baguio City</option>
+                        <option >Caloocan City</option>
+                    </select>
+                </div>
+                <div class="cb">
+                    <input type="checkbox" id="cb1" required>
+                    <label for="cb1">Morning</label>
+                    <input type="checkbox" id="cb2" required>
+                    <label for="cb2">Afternoon</label>
+                    <input type="checkbox" id="cb3" required>
+                    <label for="cb3">Evening</label>
+                </div>
+                
+            </div>
+            <input type="submit" id="sub" onclick="reg()" class="btn2" value="Register Account" ></input>
+        </form>
+        <div class="register">Already have an account? <a href="login.html">Log in here!</a></div>
+    </div>
+</body>
+</html>
